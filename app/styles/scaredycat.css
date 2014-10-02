@@ -1,0 +1,89 @@
+.card {
+	float:left;
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color: red;
+	background-image:url('../images/all.png');
+	padding: 0;
+	margin:4px;
+	box-shadow: 5px 5px 5px #888888;
+	
+}
+.card.bird1 {
+	background-color: yellow;
+	background-position:0px 0px;
+}
+.card.bird2 {
+	background-color: blue;
+	background-position:-150px 0px;
+}
+.bird3 {
+	background-color: pink;
+	background-position:-300px 0px;
+}
+.bird4 {
+	background-color: orange;
+	background-position:-450px 0px;
+}
+.bird5 {
+	background-color: purple;
+	background-position:-600px 0px;
+}
+.bird6 {
+	background-color: turquoise;
+	background-position:-750px 0px;
+}
+.back {
+	background-color: green;
+	background-position:-900px 0px;
+}
+.cat1 {
+	background-position:-0px -200px;
+}
+.cat2 {
+	background-position:-150px -200px;
+}
+.cat3 {
+	background-position:-300px -200px;
+}
+.cat4 {
+	background-position:-450px -200px;
+}
+.scarecrow1 {
+	background-position:0px -400px;
+}
+.scarecrow2 {
+	background-position:-150px -400px;
+}
+.scarecrow3 {
+	background-position:0px -600px;
+}
+.scarecrow4 {
+	background-position:-150px -600px;
+}
+.scarecrow5 {
+	background-position:0px -800px;
+}
+.scarecrow6 {
+	background-position:-150px -800px;
+}
+.scarecrow-hand{
+	background-image:url('../images/scarecrow-background.png');
+	background-position:8px 8px;	
+	background-size: fill;
+	width: 316px;
+	height: 617px;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+.scarecrow-card{
+	width: 155px;
+	height: 205px;
+	float: left;
+}
+.hand{
+	border: 1px black solid;
+	min-height: 250px;
+}
